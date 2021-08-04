@@ -26,10 +26,28 @@ The goal is to predict the probability will buy user service or not.
 
 ### The test dataset should be in the directory: `./data/data_test.csv`
 
-### Open console and type
+### Install venv and activate it
 
 ```bash
-py megafon.py
+python -m venv venv
+
+# On Windows
+source venv/Scripts/activate
+
+# On Unix or MacOS
+source venv/bin/activate
+```
+
+### Install requirments
+
+```bash
+pip install -r requirments.txt
+```
+
+### Run
+
+```bash
+python megafon.py
 ```
 
 ### After run script will be created file `answers_test.csv` in root directory with predictions
